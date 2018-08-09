@@ -41,8 +41,10 @@ table[width="100%"] td[align="center"] table[style="border:1px solid gray"] {
     margin-left: -7px;
 }
 table[width="100%"] td[align="center"] table[style="border:1px solid gray"] tr:nth-child(2) td img {
-    max-height: 426px;
-    max-width: 834px;
+    height: 426px;
+    width: 834px;
+    object-fit: cover;
+    object-position: 50%;
 }
 /*icerik resmi bitis*/
 table.degerlendirme-galeri {
