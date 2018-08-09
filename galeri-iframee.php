@@ -41,7 +41,7 @@ table[width="100%"] td[align="center"] table[style="border:1px solid gray"] {
     margin-left: -7px;
 }
 table[width="100%"] td[align="center"] table[style="border:1px solid gray"] tr:nth-child(2) td img {
-    height: 426px;
+    height: 443px;
     width: 834px;
     object-fit: cover;
     object-position: 50%;
@@ -213,6 +213,18 @@ font[color="red"] {
     margin: 8px -43px;
     border-radius: 50%;
 }
+.gonderen-kisi:after {
+    content: "";
+    width: 15px;
+    height: 25px;
+    background: white;
+    left: 0px;
+    top: 0px;
+    margin-top: -5px;
+    margin-left: -62px;
+    position: absolute;
+    height: 434px;
+}
 a.gonderen-ismi {
     font-weight:500;
     position: absolute;
@@ -229,11 +241,11 @@ a.gonderen-ismi {
 .sag-taraf-yorum-vs {
     width: 340px;
     height: 299px;
-    background: #fff;
+    background: #af4343;
     top: 140px;
-    left: 843px;
+    left: 834px;
     position: absolute;
-z-index:2;
+    z-index: 2;
 }
 center form tr:nth-child(1) td:nth-child(2) a img {
     width: 35px;
@@ -251,14 +263,14 @@ center textarea {
 }
 table.degerlendirme-galeri form {
     background: #efefef;
-    margin-left: -3px;
+    margin-left: -12px;
     margin-right: -4px;
     padding-left: 87px;
     padding-top: 4px;
     padding-bottom: 2px;
     position: absolute;
     z-index: 2;
-    width: 257px;
+    width: 262px;
 }
 table.degerlendirme-galeri form:before {
     content: "Degerlendirme:";
