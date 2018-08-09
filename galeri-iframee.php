@@ -37,8 +37,8 @@ div#templatemo_sidebar {display:none}
 table[width="100%"] td[align="center"] table[style="border:1px solid gray"] {
     width: 840px;
     height: 444px;
-    margin-top: -85px;
-    background: #191919;
+    margin-top: -95px;
+    margin-left: -7px;
 }
 table[width="100%"] td[align="center"] table[style="border:1px solid gray"] tr:nth-child(2) td img {
     max-height: 426px;
@@ -118,7 +118,7 @@ table[align="center"] table[width="100%"] td:nth-child(2) {
     font-family: arial;
 }
 
-/*normal kullanýcý*/
+/*normal kullanÃ½cÃ½*/
 table.yorum-alani {
        background: #f5f5f5;
     margin-top: -5px;
