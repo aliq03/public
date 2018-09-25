@@ -352,7 +352,7 @@ ol#new-projects article:nth-of-type(2),
 ol#new-projects article:nth-of-type(3),
 ol#new-projects article:nth-of-type(4),
 ol#new-projects article:nth-of-type(5),
-ol#new-projects article:nth-of-type(6), {
+ol#new-projects article:nth-of-type(6){
     display: inline-block;
 }
 body .carditem .img-fluid {
