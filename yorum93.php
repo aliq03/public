@@ -24,7 +24,6 @@ body {
 }
 table[align="center"][width="100%"] {
     position: absolute;
-    background: #FAFAFA
     left: 0;
     margin-top: 527px;
 }
