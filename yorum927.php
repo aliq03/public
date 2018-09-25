@@ -35,9 +35,9 @@ height:30px;
 }
 
 table[width="100%"] b a[target="_blank"] {
-    margin-top: -14px;
+    margin-top: -46px;
     position: absolute;
-    margin-left: -8px;
+    margin-left: 64px;
     color: #597cad;
     font-size: 14px;
     text-decoration: none;
@@ -46,6 +46,12 @@ table[width="100%"] b a[target="_blank"] {
     font-style: normal;
     line-height: inherit;
     text-transform: initial;
+}
+	
+table[align="center"][width="100%"] tr td a[name="comment"] + b {
+    margin: -25px 130px;
+    position: absolute;
+    font-weight: 500;
 }
 table[width="100%"] b a[target="_blank"] img {
     width: 40px;
@@ -175,7 +181,7 @@ table[width="100%"][align="center"] table[width="100%"] {
     padding-bottom: 15px;
     margin-top: -22px;
     width: 660px;
-    margin-left: 66px;
+    margin-left: 130px;
     border: 1px solid #E8E8E8;
 }
 .yorumlar tbody tr td > b:nth-of-type(1) {
@@ -536,6 +542,9 @@ background-size:25px;
 <style>
 table .comment-container {
     display: block;
+    float: left;
+    width: 666px;
+    margin-left: 131px;
 }
 </style>
 <div class="reaction-ekle"></div>
