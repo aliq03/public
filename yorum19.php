@@ -5,6 +5,9 @@ header("Access-Control-Allow-Origin: *");
 body {
     background-color: #FAFAFA;
 }
+	div#container {
+    margin-bottom: -207px;
+}
 #templatemo_wrapper {
     width: 100%;
     margin: auto;
@@ -25,7 +28,7 @@ body {
 center {
     position: absolute;
     left: 0;
-    margin-top: 527px;
+    margin-top: 0px;
 }
 /**/
 table[align="center"] table[width="100%"] td:first-child {
