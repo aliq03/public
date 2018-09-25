@@ -533,6 +533,7 @@ background-size:25px;
 }
 </style>
 
+
 <div class="comment-container"><div class="yormekle" onclick="konuekle1()"></div><form action="" method="POST">
   <div class="meta">
 <div class="avatar">
