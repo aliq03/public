@@ -574,8 +574,6 @@ center > form {
 <div class="reaction-ekle"></div>
 <script type="text/javascript">
 $( document ).ready(function() {
-
-$( "br + center" ).append( $( ".rns" ) );
 $( "br + center" ).append( $( "#new-projects" ) );
 $( "br + center" ).append( $( ".comment-container" ) );
 
