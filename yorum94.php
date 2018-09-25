@@ -341,9 +341,10 @@ ol#new-projects article,
 }
 ol#new-projects {
     margin-left: -20px;
+    width: 900px;
 }
 body article.carditem {
-    width: auto;}
+    width: 286px;}
 .carditem header {height:125px;}
 .carditem .img-fluid {image-rendering: -webkit-optimize-contrast;}
 ol#new-projects article:nth-of-type(1),
@@ -353,29 +354,29 @@ ol#new-projects article:nth-of-type(4),
 ol#new-projects article:nth-of-type(5),
 ol#new-projects article:nth-of-type(6),
 ol#new-projects article:nth-of-type(7) {
-    display: inherit;
+    display: inline-block;
 }
 body .carditem .img-fluid {
-    width: 33%;
+    width: 100%;
     float: left;
 }
 body .carditem header {
-    height: auto;
+    height:166px;
 background:none;
 }
 body .carditem div {
     float: right;
     width: 130px;
     position: absolute;
-    top: 0px;
-    margin: -2px 61px;
+    bottom: 0px;
+    margin: 2px 7px;
     height: 51px;
     max-height: 50px;
     overflow: hidden;
     padding-left: 43px;
 }
 body .carditem div:before {
-    margin: 3px -38px;
+    margin: -5px -40px;
     border-radius: 13px;
     background-color: white;
     background-position: 2px;
@@ -396,12 +397,12 @@ body #new-projects .carditem:first-of-type {
 </style>
 <style>
 article.carditem {
-   height:auto;
-    width:332px;
+    height: 244px;
+    width: 332px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-padding:0;
-margin: 20px 5px;
-background:white;
+    padding: 0;
+    margin: 20px 5px;
+    background: white;
 }
 .carditem {
     transition: all 0.25s ease-in-out;
@@ -423,7 +424,7 @@ background:white;
     transition: transform 0.2s ease-out;
     width: 100%;
         image-rendering: -webkit-optimize-contrast;
-    height: 80px;
+    height: 166px;
 
 }
 .carditem header:hover img {
@@ -445,7 +446,7 @@ overflow: hidden;
     text-align: left;
     font-family: roboto;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     height: 30px;
     word-wrap: break-word;
     margin-left: 36px;
