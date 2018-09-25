@@ -579,8 +579,5 @@ center > form {
 $( document ).ready(function() {
 $( "br + center" ).append( $( "#new-projects" ) );
 $( "br + center" ).append( $( ".comment-container" ) );
-$( "table[align="center"][width="100%"]" ).clone().appendTo( ".comment-container" );
-
-
 });
 </script>
