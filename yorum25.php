@@ -556,12 +556,18 @@ background-size:25px;
 </style>
 
 <style>
-.comment-container {
+center > .comment-container {
     display: block;
     float: left;
     width: 666px;
     margin-left: 131px;
 }
+table[align="center"][width="100%"] > .comment-container {
+    display: block;
+    float: left;
+    width: 666px;
+    margin-left: 131px;
+}	
 table[align="center"][width="100%"] {
     position: absolute;
     left: 0;
