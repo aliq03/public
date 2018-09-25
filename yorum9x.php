@@ -16,7 +16,7 @@ header("Access-Control-Allow-Origin: *");
     padding: 48px 1px;
     background: #ffffff;
     left: 50%;
-    margin-left: -600px;
+    margin-left: -483px;
     margin-top: 30px;
 }
 table[align="center"][width="100%"] {
@@ -370,8 +370,9 @@ body .carditem div:before {
 body .carditem div:after {width:100px }
 body .sidebar_section.sidebar_section_bg.sidebaryan3 {
     width: 241px;
-    margin-left: 29px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    margin-left: -17px;
+    box-shadow: 0px 0px;
+    border: 0px;
 }
 body #webme_sky_ad {
     padding-left: 45px;
@@ -531,3 +532,277 @@ background-size:25px;
 background-size:25px;
 }
 </style>
+
+<div class="comment-container"><div class="yormekle" onclick="konuekle1()"></div><form action="" method="POST">
+  <div class="meta">
+<div class="avatar">
+    <img src="https://img.webme.com/pic/a/aliq03/5gd3dsa4.png" alt="" ></div>
+    <input placeholder="Adınız" class="name" value="" type="text" name="modulenter[name]" style="width: 150px; ">
+  </div>
+  <div class="form-control" name="" id="">
+ 		<textarea placeholder="Cevap yaz..." rows="5" class="emojis-wysiwyg"></textarea>
+</div>
+  <span class="placeholder">Cevap yaz...</span>
+<textarea placeholder="Cevap yaz..." id="kommentartext" name="modulenter[text]" class="emojis-wysiwyg-value"></textarea>
+  <div class="btns">
+<input type="hidden" name="mode" value="addacomment_step1">
+<input type="submit" class="yorum-ekle" value="Yorum ekle">
+  </div></form>
+</div>
+<style>
+.comment-container {
+  position: relative;
+  max-width: 700px;
+  margin: 50px auto;
+  overflow: hidden;
+  font-family: serif;
+}
+.comment-container .meta {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+cursor: text;
+}
+.comment-container .meta .avatar img {
+    border-radius: 50%;
+    width: 40px;
+    margin: 6px 11px;
+    position: absolute;
+}
+.avatar {
+    z-index: 2;
+    position: absolute;
+}
+.avatar a {
+display: none;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 11px;
+    background: white;
+    width: 300px;
+    color: #597cad;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+}
+.comment-container.toggled .avatar a {
+    display: inherit;
+}
+.avatar img:nth-child(2) {
+    left: -1px;
+    position: absolute;
+}
+input.yorum-ekle {
+    padding: 10px;
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid #03a87c;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #03a87c;
+    box-sizing: border-box;
+    font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+}
+.comment-container .meta .name {
+    margin-left: 65px;
+    margin-top: -px;
+    transform: translateY(-100px);
+    display: inline-block;
+    color: #2d69eb;
+}
+.comment-container .placeholder {
+  position: absolute;
+  top: 50%;
+  font-size: 18px;
+  color: #999;
+  left:75px;
+  margin-top: -15px;
+}
+
+.comment-container .btns {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  opacity: 0;
+  visibility: hidden;
+}
+.comment-container.toggled .meta .name {
+  transform: translateY(17px);
+}
+.comment-container .emoji-wysiwyg-editor {
+    height: 70px;
+    font-size: 0;
+    box-sizing: border-box;
+    color: #fff;
+    width: 100%;
+    border: 0;
+    max-height: 70px;
+    overflow: hidden;
+
+}
+.yormekle {
+    background: transparent;
+    width: 99%;
+    height: 70px;
+    position: absolute;
+    z-index:2;
+    cursor: text;
+}
+a.emoji-button {
+    position: absolute;
+    right: 38px;
+    top: 25px;
+    background: url(https://img.webme.com/pic/a/aliq03/1f603.png);
+    font-size: 0;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    display: none;
+}
+.comment-container.toggled a.emoji-button {  display:inherit;}
+.comment-container.toggled .yormekle {
+    display: none;
+}
+.comment-container.toggled .emoji-wysiwyg-editor {
+    min-height: 200px;
+    color: #444;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 100%;
+    border: 0;
+    padding: 4px 27px;
+    outline: none;
+    overflow: hidden;
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    max-height: 9999px;
+    transition:0.2s;
+}
+.comment-container .emoji-wysiwyg-editor img {
+    visibility: hidden;
+}
+.comment-container.toggled .emoji-wysiwyg-editor img {
+    visibility: visible;
+}
+.comment-container.toggled .placeholder {
+  display: none;
+}
+.comment-container.toggled .btns {
+  opacity: 1;
+  visibility: visible;
+}
+.form-control {
+    background: white;
+    width: 99%;
+    border-radius: 3px;
+    border: 1px solid #ababab;
+}
+</style>
+<script>
+$('.comment-container').click(function() {
+  $(this).addClass('toggled'); 
+  
+  $(document).click(function(){
+    $('.comment-container').removeClass('toggled');
+  });
+
+  $('.comment-container').click(function(e){
+    e.stopPropagation();
+  });
+})
+</script>
+
+		<link rel="stylesheet" href="https://cdn.rawgit.com/aliq03/jquery-emojiarea/master/jquery.emojiareaa.css">
+		<link rel="stylesheet" href="https://raw.githubusercontent.com/aliq03/jquery-emojiarea/master/example/stylesheet.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="https://cdn.rawgit.com/aliq03/jquery-emojiarea/master/jquery.emojiareaxs.js"></script>
+		<script src="https://cdn.rawgit.com/aliq03/jquery-emojiarea/master/packs/basic/emojixs.js"></script>
+
+
+		
+		<script>
+		$('.emojis-plain').emojiarea({wysiwyg: false});
+		
+		var $wysiwyg = $('.emojis-wysiwyg').emojiarea({wysiwyg: true});
+		var $wysiwyg_value = $('.emojis-wysiwyg-value');
+		
+		$wysiwyg.on('change', function() {
+			$wysiwyg_value.text($(this).val());
+		});
+		$wysiwyg.trigger('change');
+		</script>
+<script>
+$(document).ready(function(){
+$( "form[method='POST'] tr:nth-child(1) td:nth-child(2) a img" ).clone().appendTo( ".avatar" );
+$( "form[method='POST'] tr:nth-child(1) td:nth-child(2) a:nth-of-type(2)" ).clone().prependTo( ".avatar" );
+});
+</script>
+<style>
+.emojis-wysiwyg-value {display:none}
+</style>
+<script>
+jQuery(function($){
+    $(".emoji-wysiwyg-editor").focusout(function(){
+        var element = $(this);        
+        if (!element.text().replace(" ", "").length) {
+            element.empty();
+        }
+    });
+});
+</script>
+<style>
+.emoji-wysiwyg-editor[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: #555; 
+cursor: text;
+}
+
+.emoji-wysiwyg-editor[placeholder]:empty:focus:before {
+    content: "";
+}
+</style>
+<script>
+var textarea6 = document.querySelector('.emoji-wysiwyg-editor');
+textarea6.addEventListener('keydown', autosize);
+             
+function autosize(){
+  var el6 = this;
+  setTimeout(function(){
+    el6.style.cssText = 'height:auto; padding:0';
+    // for box-sizing other than "content-box" use:
+    // el6.style.cssText = '-moz-box-sizing:content-box';
+    el6.style.cssText = 'height:' + el6.scrollHeight + 'px';
+  },0);
+}
+</script>
+<script>
+function konuekle1() {
+    document.getElementsByClassName("emoji-wysiwyg-editor")[0].focus();
+}</script>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+
+$( "table[align='center'][width='100%']" ).prepend( $( ".comment-container" ) );
+$( "table[align='center'][width='100%']" ).prepend( $( "#new-projects" ) );
+$( "table[align='center'][width='100%']" ).prepend( $( ".reaction-ekle" ) );
+
+});
+</script>
+<div class="reaction-ekle"></div>
