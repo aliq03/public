@@ -571,7 +571,7 @@ table[align="center"][width="100%"] > .comment-container {
 table[align="center"][width="100%"] {
     position: absolute;
     left: 0;
-    margin-top: 527px;
+    margin-top: 682px;
 }
 center {
     text-align: initial;
