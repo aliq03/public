@@ -534,8 +534,8 @@ background-size:25px;
 </style>
 
 <style>
-.comment-container {
-    display: inherit;
+table .comment-container {
+    display: block;
 }
 </style>
 <div class="reaction-ekle"></div>
