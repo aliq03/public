@@ -567,12 +567,15 @@ table[align="center"][width="100%"] {
 center {
     text-align: initial;
 }
+center > form {
+    display: none;
+}
 </style>
 <div class="reaction-ekle"></div>
 <script type="text/javascript">
 $( document ).ready(function() {
 
-$( "br + center" ).append( $( ".reaction-ekle" ) );
+$( "br + center" ).append( $( ".rns" ) );
 $( "br + center" ).append( $( "#new-projects" ) );
 $( "br + center" ).append( $( ".comment-container" ) );
 
