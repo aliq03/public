@@ -798,3 +798,12 @@ function konuekle1() {
 
 
 <div class="reaction-ekle"></div>
+<script type="text/javascript">
+$( document ).ready(function() {
+
+$( "table[align='center'][width='100%']" ).prepend( $( ".comment-container" ) );
+$( "table[align='center'][width='100%']" ).prepend( $( "#new-projects" ) );
+$( "table[align='center'][width='100%']" ).prepend( $( ".reaction-ekle" ) );
+
+});
+</script>
