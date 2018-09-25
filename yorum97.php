@@ -160,17 +160,23 @@ table[align="center"] table[width="100%"] td[width="100%"] {
     font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
 }
 
-.localtime {
+td > .localtime {
     font-size: 11px;
     font-style: normal;
     font-family: arial;
     color: rgb(2, 2, 2);
     position: absolute;
-    left: 50%;
-    margin: -27px -394px;
+    float: left;
+    margin: 36px -528px;
 }
-td[align="right"] .localtime {
-    margin-top: 33px;
+td[width="100%"] .localtime {
+    font-size: 11px;
+    font-style: normal;
+    font-family: arial;
+    color: rgb(2, 2, 2);
+    position: absolute;
+    float: left;
+    margin: -27px 47px;
 }
 /*yorum*/
 hr {display:none}
