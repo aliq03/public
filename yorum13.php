@@ -20,9 +20,9 @@ body {
     background: #ffffff;
     left: 50%;
     margin-left: -483px;
-    margin-top: 30px;
-}
-table[align="center"][width="100%"] {
+	margin-top: 30px }
+	
+center {
     position: absolute;
     left: 0;
     margin-top: 527px;
