@@ -553,7 +553,7 @@ background-size:25px;
 </style>
 
 <style>
-table .comment-container {
+center .comment-container {
     display: block;
     float: left;
     width: 666px;
@@ -564,9 +564,10 @@ table .comment-container {
 <script type="text/javascript">
 $( document ).ready(function() {
 
+$( "br + center" ).append( $( ".reaction-ekle" ) );
 $( "br + center" ).append( $( ".comment-container" ) );
 $( "br + center" ).append( $( "#new-projects" ) );
-$( "br + center" ).append( $( ".reaction-ekle" ) );
+
 
 });
 </script>
