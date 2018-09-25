@@ -2,6 +2,9 @@
 header("Access-Control-Allow-Origin: *"); 
 ?>
 <style>
+body {
+    background-color: #FAFAFA;
+}
 #templatemo_wrapper {
     width: 100%;
     margin: auto;
@@ -21,7 +24,7 @@ header("Access-Control-Allow-Origin: *");
 }
 table[align="center"][width="100%"] {
     position: absolute;
-    background: #eeeeee;
+    background: #FAFAFA
     left: 0;
     margin-top: 527px;
 }
@@ -173,7 +176,6 @@ td[align="right"] .localtime {
 /*yorum*/
 hr {display:none}
 table[width="100%"][align="center"] table[width="100%"] {
-    background: white;
     margin-bottom: 38px;
     padding: 10px;
     border-radius: 4px;
@@ -183,6 +185,12 @@ table[width="100%"][align="center"] table[width="100%"] {
     width: 660px;
     margin-left: 130px;
     border: 1px solid #E8E8E8;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border: 1px solid rgba(0,0,0,.09);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
 .yorumlar tbody tr td > b:nth-of-type(1) {
     position: absolute;
