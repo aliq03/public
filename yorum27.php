@@ -52,11 +52,16 @@ table[width="100%"] b a[target="_blank"] {
     line-height: inherit;
     text-transform: initial;
 }
-	
-table[align="center"][width="100%"] tr td a[name="comment"] + b {
-    margin: -25px 130px;
+table[align="center"][width="100%"]:before {
+    content: "Yorumlar";
+    float: left;
     position: absolute;
+    margin: 20px 134px;
     font-weight: 500;
+    font-size: 15px;
+}
+table[align="center"][width="100%"] tr td a[name="comment"] + b {
+    display: none;
 }
 table[width="100%"] b a[target="_blank"] img {
     width: 40px;
