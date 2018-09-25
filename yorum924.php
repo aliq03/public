@@ -533,7 +533,11 @@ background-size:25px;
 }
 </style>
 
-
+<style>
+.comment-container {
+    display: inherit;
+}
+</style>
 <div class="reaction-ekle"></div>
 <script type="text/javascript">
 $( document ).ready(function() {
