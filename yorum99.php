@@ -564,9 +564,9 @@ table .comment-container {
 <script type="text/javascript">
 $( document ).ready(function() {
 
-$( "table[align='center'][width='100%']" ).append( $( ".comment-container" ) );
-$( "table[align='center'][width='100%']" ).append( $( "#new-projects" ) );
-$( "table[align='center'][width='100%']" ).append( $( ".reaction-ekle" ) );
+$( "br + center" ).append( $( ".comment-container" ) );
+$( "br + center" ).append( $( "#new-projects" ) );
+$( "br + center" ).append( $( ".reaction-ekle" ) );
 
 });
 </script>
