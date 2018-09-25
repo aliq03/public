@@ -796,13 +796,5 @@ function konuekle1() {
     document.getElementsByClassName("emoji-wysiwyg-editor")[0].focus();
 }</script>
 
-<script type="text/javascript">
-$( document ).ready(function() {
 
-$( "table[align='center'][width='100%']" ).prepend( $( ".comment-container" ) );
-$( "table[align='center'][width='100%']" ).prepend( $( "#new-projects" ) );
-$( "table[align='center'][width='100%']" ).prepend( $( ".reaction-ekle" ) );
-
-});
-</script>
 <div class="reaction-ekle"></div>
