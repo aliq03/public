@@ -2,7 +2,29 @@
 header("Access-Control-Allow-Origin: *"); 
 ?>
 <style>
-
+#templatemo_wrapper {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top: 31px;
+    background: white;
+    left: 0;
+}
+#templatemo_main {
+    clear: both;
+    position: relative;
+    padding: 48px 1px;
+    background: #ffffff;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: 30px;
+}
+table[align="center"][width="100%"] {
+    position: absolute;
+    background: #eeeeee;
+    left: 0;
+    margin-top: 527px;
+}
 /**/
 table[align="center"] table[width="100%"] td:first-child {
     color: red;
@@ -11,6 +33,7 @@ table[align="center"] table[width="100%"] td:first-child {
     float: left;
 height:30px;
 }
+
 table[width="100%"] b a[target="_blank"] {
     margin-top: -14px;
     position: absolute;
