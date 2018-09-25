@@ -559,14 +559,17 @@ center .comment-container {
     width: 666px;
     margin-left: 131px;
 }
+center {
+    text-align: initial;
+}
 </style>
 <div class="reaction-ekle"></div>
 <script type="text/javascript">
 $( document ).ready(function() {
 
 $( "br + center" ).append( $( ".reaction-ekle" ) );
-$( "br + center" ).append( $( ".comment-container" ) );
 $( "br + center" ).append( $( "#new-projects" ) );
+$( "br + center" ).append( $( ".comment-container" ) );
 
 
 });
