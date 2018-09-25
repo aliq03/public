@@ -559,6 +559,11 @@ center .comment-container {
     width: 666px;
     margin-left: 131px;
 }
+table[align="center"][width="100%"] {
+    position: absolute;
+    left: 0;
+    margin-top: 527px;
+}
 center {
     text-align: initial;
 }
