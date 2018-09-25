@@ -556,7 +556,7 @@ background-size:25px;
 </style>
 
 <style>
-center .comment-container {
+.comment-container {
     display: block;
     float: left;
     width: 666px;
@@ -579,6 +579,6 @@ center > form {
 $( document ).ready(function() {
 $( "br + center" ).append( $( "#new-projects" ) );
 $( "br + center" ).append( $( ".comment-container" ) );
-$( "table[align='center'][width='100%']" ).append( $( ".comment-container" ) );
+$( "table[align='center'][width='100%']" ).prepend( $( ".comment-container" ) );
 });
 </script>
