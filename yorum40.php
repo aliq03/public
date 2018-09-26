@@ -617,5 +617,6 @@ $( document ).ready(function() {
 $( "br + center" ).append( $( "#new-projects" ) );
 $( "br + center" ).append( $( ".comment-container" ) );
 $( "table[align='center'][width='100%']" ).prepend( $( ".comment-container" ) );
+$( "table[align='center'][width='100%']" ).prepend( $( "#new-projects" ) );
 });
 </script>
