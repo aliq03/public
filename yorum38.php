@@ -601,6 +601,7 @@ table[align="center"][width="100%"] {
     position: absolute;
     left: 0;
     margin-top: 682px;
+    font-family: roboto;
 }
 center {
     text-align: initial;
