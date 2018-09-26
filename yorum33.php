@@ -5,8 +5,20 @@ header("Access-Control-Allow-Origin: *");
 body {
     background-color: #FAFAFA;
 }
-	div#container {
+div#container {
     margin-bottom: -207px;
+}
+div#content {
+    margin-top: -20px;
+    -webkit-font-smoothing: antialiased;
+    color: #2f2f2f;
+    font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
 }
 #templatemo_wrapper {
     width: 100%;
@@ -225,7 +237,7 @@ display:none;
 <!-- LikeBtn.com BEGIN -->
 <link href="https://unpkg.com/applause-button/dist/applause-button.css" media="screen" rel="stylesheet" type="text/css" />
 <script src="https://unpkg.com/applause-button/dist/applause-button.js" type="text/javascript"></script>
-<applause-button multiclap="true" color="#03A87C" style="width: 60px; height: 60px; cursor:pointer;margin: 22px -15px;"/></applause-button>
+<applause-button multiclap="true" color="#03A87C" style="width: 60px; height: 60px; cursor:pointer;margin:22px -15px 12px -15px;"/></applause-button>
 <!-- LikeBtn.com END -->
 
 <div class="share-icon ifacebook">
@@ -359,7 +371,7 @@ ol#new-projects article,
 }
 ol#new-projects {
     margin-left: -20px;
-    width: 900px;
+    width: 906px;
 }
 body article.carditem {
     width: 286px;}
@@ -419,7 +431,12 @@ article.carditem {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
     padding: 0;
     margin: 20px 5px;
-    background: white;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border: 1px solid rgba(0,0,0,.09);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }
 .carditem {
     transition: all 0.25s ease-in-out;
@@ -482,9 +499,9 @@ article.carditem.aliq-btn {
     line-height: 20px;
 background: white;
 }
-article.carditem.aliq-btn:hover{
-background: white;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.3);
+article.carditem.aliq-btn:hover {
+    background: white;
+    box-shadow: 0 2px 2px 0 rgba(150, 150, 150, 0.12), 0 6px 10px 0 rgba(193, 193, 193, 0.15);
 }
 .carditem div:after {
     display: block;
