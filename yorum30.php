@@ -223,8 +223,9 @@ display:none;
 <div class="paylas-yorum">
 
 <!-- LikeBtn.com BEGIN -->
-<span class="likebtn-wrapper" data-theme="custom" data-btn_size="37" data-icon_size="50" data-icon_l="hrt5" data-icon_l_c="#999697" data-icon_l_c_v="#e0245e" data-icon_d_c="#0094fe" data-icon_d_c_v="#00ff57" data-counter_l_c="#464646" data-bg_c="rgba(198,198,198,0)" data-bg_c_v="rgba(198,198,198,0)" data-brdr_c="rgba(198,198,198,0)" data-f_family="Lucida Console" data-counter_fs="b" data-lang="tr" data-i18n_like="buton adı" data-ef_voting="heartbeat" data-vert="true" data-show_like_label="false" data-dislike_enabled="false" data-icon_like_show="false" data-icon_dislike_show="false" data-counter_frmt="km" data-popup_width="0" data-site_id="56c2fe7ea4c688a2139531a5"></span>
-<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+<link href="https://unpkg.com/applause-button/dist/applause-button.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="https://unpkg.com/applause-button/dist/applause-button.js" type="text/javascript"></script>
+<applause-button multiclap="true" color="#03A87C" style="width: 60px; height: 60px; cursor:pointer;"/>
 <!-- LikeBtn.com END -->
 
 <div class="share-icon ifacebook">
