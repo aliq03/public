@@ -71,6 +71,7 @@ table[align="center"][width="100%"]:before {
     margin: 20px 134px;
     font-weight: 500;
     font-size: 15px;
+    font-family: roboto;
 }
 table[align="center"][width="100%"] tr td a[name="comment"] + b {
     display: none;
