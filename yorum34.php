@@ -349,12 +349,12 @@ $(window).scroll(function() {
 <style>
 .paylas-yorum {
     position: fixed;
-    top: 193px;
+    top: 293px;
     z-index: 10;
-    margin-left: -76px;
+    margin-left: -140px;
 }
 .paylas-yorum.s-c-fix {
-    top: 73px;
+    top: 173px;
 }
 </style>
 
