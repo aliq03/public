@@ -52,7 +52,7 @@ height:30px;
 }
 
 table[width="100%"] b a[target="_blank"] {
-    margin-top: -16px;
+    margin-top: -14px;
     position: absolute;
     margin-left: 64px;
     color: #597cad;
@@ -80,7 +80,7 @@ table[width="100%"] b a[target="_blank"] img {
     height: 40px;
     margin-left: -54px;
     border-radius: 50%;
-    margin-top: 2px;
+    margin-top: -2px;
 }
 table[align="center"] table[width="100%"] td:nth-child(2) {
     padding-left: 0px;
