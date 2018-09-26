@@ -601,7 +601,7 @@ table[align="center"][width="100%"] > .comment-container {
 table[align="center"][width="100%"] {
     position: absolute;
     left: 0;
-    margin-top: 682px;
+    margin-top: 84px;
     font-family: roboto;
 }
 center {
