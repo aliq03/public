@@ -64,11 +64,11 @@ table[width="100%"] b a[target="_blank"] {
     line-height: inherit;
     text-transform: initial;
 }
-table[align="center"][width="100%"]:before {
+ol#new-projects:after {
     content: "Yorumlar";
     float: left;
     position: absolute;
-    margin: 20px 134px;
+    margin: 327px -785px;
     font-weight: 500;
     font-size: 15px;
     font-family: roboto;
