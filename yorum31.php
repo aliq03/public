@@ -225,7 +225,7 @@ display:none;
 <!-- LikeBtn.com BEGIN -->
 <link href="https://unpkg.com/applause-button/dist/applause-button.css" media="screen" rel="stylesheet" type="text/css" />
 <script src="https://unpkg.com/applause-button/dist/applause-button.js" type="text/javascript"></script>
-<applause-button multiclap="true" color="#03A87C" style="width: 60px; height: 60px; cursor:pointer;"/>
+<applause-button multiclap="true" color="#03A87C" style="width: 60px; height: 60px; cursor:pointer;"/></applause-button>
 <!-- LikeBtn.com END -->
 
 <div class="share-icon ifacebook">
