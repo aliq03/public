@@ -351,7 +351,10 @@ $(window).scroll(function() {
     position: fixed;
     top: 293px;
     z-index: 10;
-    margin-left: -140px;
+    margin-left: -150px;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
 }
 .paylas-yorum.s-c-fix {
     top: 173px;
