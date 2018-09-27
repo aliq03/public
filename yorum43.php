@@ -348,11 +348,16 @@ $(window).scroll(function() {
 		});
 </script>
 <style>
+.yorum {
+    position: sticky;
+    float: left;
+    top: 130px;
+    margin-left: -160px;
+    bottom: 85px;
+}
 .paylas-yorum {
-    position: fixed;
     top: 293px;
     z-index: 10;
-    margin-left: -150px;
     font-family: roboto;
     font-size: 16px;
     font-weight: 400;
