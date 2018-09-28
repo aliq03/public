@@ -55,14 +55,15 @@ table[width="100%"] b a[target="_blank"] {
     margin-top: -14px;
     position: absolute;
     margin-left: 64px;
-    color: #597cad;
+    color: #737171 !important;
     font-size: 14px;
     text-decoration: none;
-    font-family: 'RobotoDraft',arial,sans-serif;
-    font-weight: 600;
-    font-style: normal;
     line-height: inherit;
     text-transform: initial;
+    font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal;
 }
 ol#new-projects:after {
     content: "Yorumlar";
@@ -84,20 +85,20 @@ table[width="100%"] b a[target="_blank"] img {
     margin-top: -2px;
 }
 table[align="center"] table[width="100%"] td:nth-child(2) {
-    padding-left: 0px;
+     padding-left: 0px;
     padding-right: 5px;
     margin-left: 13px;
     margin-top: -10px;
     float: left;
     padding-top: 17px;
     padding-bottom: 5px;
-    color: #2b2b2b;
+    color: #292929d4;
     width: 577px;
     word-wrap: break-word;
-    font-size: 18px;
-    line-height: 1.58;
     letter-spacing: -.004em;
     font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+    font-size: 19px;
+    line-height: 1.4;
 }
 
 /*normal kullanıcı*/
@@ -127,20 +128,19 @@ table[width="100%"] tbody tr td[width="100%"] i b {
     letter-spacing: initial;
 }
 table[width="100%"] tbody tr td[width="100%"] i b {
-    size: 14px;
-    margin-top: -40px;
+    margin-top: -49px;
     border: 0;
-    letter-spacing: initial;
     position: absolute;
     margin-left: 47px;
-    color: #597cad;
+    color: #737171 !important;
     font-size: 14px;
     text-decoration: none;
-    font-family: 'RobotoDraft',arial,sans-serif;
-    font-weight: 600;
-    font-style: normal;
     line-height: inherit;
     text-transform: initial;
+    font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-style: normal; 
 }
 table[width="100%"] tbody tr td[width="100%"] i b {
     size: 14px;
@@ -185,7 +185,7 @@ td > .localtime {
     font-size: 11px;
     font-style: normal;
     font-family: arial;
-    color: rgb(2, 2, 2);
+    color: rgb(158, 158, 158);
     position: absolute;
     float: left;
     margin: 36px -528px;
@@ -194,7 +194,7 @@ td[width="100%"] .localtime {
     font-size: 11px;
     font-style: normal;
     font-family: arial;
-    color: rgb(2, 2, 2);
+    color: rgb(158, 158, 158);
     position: absolute;
     float: left;
     margin: -27px 47px;
