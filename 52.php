@@ -128,6 +128,7 @@ table[width="100%"] tbody tr td[width="100%"] i b {
     letter-spacing: initial;
 }
 table[width="100%"] tbody tr td[width="100%"] i b {
+    size: 14px;
     margin-top: -49px;
     border: 0;
     position: absolute;
@@ -140,23 +141,7 @@ table[width="100%"] tbody tr td[width="100%"] i b {
     font-family: medium-content-sans-serif-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
     letter-spacing: 0;
     font-weight: 400;
-    font-style: normal; 
-}
-table[width="100%"] tbody tr td[width="100%"] i b {
-    size: 14px;
-    margin-top: -49px;
-    border: 0;
-    letter-spacing: initial;
-    position: absolute;
-    margin-left: 47px;
-    color: #597cad;
-    font-size: 14px;
-    text-decoration: none;
-    font-family: 'RobotoDraft',arial,sans-serif;
-    font-weight: 600;
     font-style: normal;
-    line-height: inherit;
-    text-transform: initial;
 }
 table[width="100%"] tbody tr td[width="100%"] i b:before {
     content: "";
