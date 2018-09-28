@@ -325,6 +325,13 @@ span.lb-count {
   text-decoration: none;
   color: #333;
 }
+svg.svgIcon-use {
+    fill: rgba(10, 10, 10, 0.84);
+}
+svg.svgIcon-use:hover {
+    fill: black;
+    image-rendering: -webkit-optimize-contrast;
+}
 </style>
 
 <script>
