@@ -8,6 +8,10 @@ body {
 div#container {
     margin-bottom: -207px;
 }
+div#templatemo_footer {
+    font-size: 0;
+    box-shadow: none;
+}
 div#content {
     margin-top: -20px;
     -webkit-font-smoothing: antialiased;
